@@ -21,11 +21,20 @@ BSc project involving the creation of a kitchen scale with a dedicated mobile ap
  - Proposals for supplementing caloric deficiencies
  - Notifications to remind you to eat regularly
 
-## Technologies
+## Technologies and components
 
+### Mobile app
  - Flutter - the main platform used to create a mobile application
  - Firebase - database platform
  - SpoonacularAPI - API used to retrieve food information
+
+### Scale
+ - ESP-32 Lite microcontroller with Bluetooth 4.2 Low Energy module
+ - 2x YZC-131 strain gauges with a maximum load of 5 kg
+ - HX711 strain gauge beam amplifier
+ - 1.77 '' LCD TFT display
+ - 1350 mAh lithium-polymer Akyga battery
+ - Buttons, LED
 
 ## Images
 A few photos presenting the work done
